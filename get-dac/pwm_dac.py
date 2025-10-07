@@ -1,5 +1,4 @@
 import RPi.GPIO as GPIO
-import time
 class PWM_DAC:
     def __init__(self, gpio_pin, pwm_freq, dynamic_range, verbose = False):
         self.gpio_pin = gpio_pin
